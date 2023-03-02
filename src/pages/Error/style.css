@@ -1,0 +1,46 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.oups{
+    color: #FF6060;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+  
+    
+}
+
+.return{
+    display: flex;    
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.error404{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 1300px){
+
+    .oups{
+       width: 80%; 
+       margin-left: 10%;
+    }
+
+}

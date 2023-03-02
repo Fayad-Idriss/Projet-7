@@ -1,0 +1,57 @@
+
+.nav-image{
+    margin-right: 40%;
+    width: 235px;
+   
+}
+
+header{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.lmj-logo{
+  margin-left: 3%;
+}  
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+.accueil{
+    width: 116px;
+    height: 34px;    
+}
+
+ .propos{
+    width: 116px;
+    height: 34px;
+}
+
+a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ff6060;
+}
+
+@media screen and (max-width: 1300px){
+    .lmj-logo{
+        width: 18%;
+    }
+
+   
+    .accueil{
+        width: 80px;
+    }
+
+    .apropos{
+        width: 80px;
+    }
+    
+}
+

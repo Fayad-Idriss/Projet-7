@@ -1,0 +1,13 @@
+.kalen{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 15.5% ;
+    border-radius: 25px;
+}
+
+.kalen-img{
+    border-radius: 25px;
+   width: 100%;
+}

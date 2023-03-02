@@ -1,0 +1,31 @@
+.img{
+    
+    width: 85%;
+    height: 223px;
+    margin-left: 7%;
+    border-radius: 15px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.lmj-image{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    filter: brightness(65%);
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+   
+}
+
+.text{
+    position: relative;
+    bottom: 140px;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    width: 100%;
+}

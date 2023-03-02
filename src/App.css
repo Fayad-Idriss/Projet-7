@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'monsterrat';
+    src: url('./fonts/Montserrat-ExtraLight.otf') format('otf');
+    src: url('./fonts/Montserrat-Light.otf') format('otf');
+    src: url('./fonts/Montserrat-Thin.otf') format('otf');
+}
+
+.App {
+    font-family : 'montserrat', Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}

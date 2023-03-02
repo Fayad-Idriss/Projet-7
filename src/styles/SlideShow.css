@@ -1,0 +1,98 @@
+.slideshow {
+    height: 415px;
+    width: 1240px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 1300px){
+    .slideshow{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 455px){
+    .slideshow{
+      height: 315px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .slideshow{
+      height: 215px;
+    }
+  }
+    
+  /* ============= DISPLAY ============= */
+  
+  .active{
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* ============== PIC ============== */
+  
+  .slideshow-pic{
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* ============ VECTORS ============ */
+    
+  .rightVector{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    right: 20px;
+  }
+  
+  @media screen and (max-width: 768px){
+    .rightVector{
+      width: 24px;
+      height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .rightVector{
+      width: 15px;
+      height: 30px;
+    }
+  }
+    
+  .leftVector{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    left: 20px;
+  }
+  
+  @media screen and (max-width: 768px){
+    .leftVector{
+      width: 24px;
+      height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .leftVector{
+      width: 15px;
+      height: 30px;
+    }
+  }
+  
+  /* ========== BULLET POINTS ========== */
+  
+  .slideshow p{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 1;
+    bottom: 0;
+    }
