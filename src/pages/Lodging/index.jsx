@@ -1,4 +1,6 @@
 import React from "react"
+import Slideshow from "../../components/SlideShow.jsx"
+import Rating from "../../components/etoile.jsx"
 import Footer from "../../components/Footer.jsx"
 import { useParams } from "react-router-dom"
 import Error from "../Error/index"
@@ -22,26 +24,24 @@ export default function PageLogement(){
             <div>
              
                 <Banner />
+                <Slideshow />
                  <div>
                     <div className="corp">
-
                        <img src={logement.pictures} alt='' />
                        <h1 className="corp-title"> {logement.title} </h1>
                        <h5 className="corp-ville"> {logement.location} </h5>
+                       
                     </div>
              
+                    <Rating />
                     <div className="localisation">
                        <div className="localisation-1">Cuisine</div>
                        <div className="localisation-2">Frigo</div>
                     </div>
 
                     <div className="collaspse-info">
-                       <Info 
-                
-                       />
-                       <Info 
-                
-                       />
+                       <Info/>
+                       <Info/>
                     </div>
 
             </div>

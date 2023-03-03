@@ -2,10 +2,12 @@
 
 .corp-title{
     color: #FF6060;
+    margin-left: 7%;
 }
 
 .corp-ville{
     margin-top: 10px;
+    margin-left: 7%;
     color: #FF6060;
 }
 
@@ -20,6 +22,7 @@
 
 .localisation{
     margin-top: 12px;
+    margin-left: 7%;
     display: flex;
 }
 
