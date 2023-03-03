@@ -9,7 +9,7 @@
 	justify-content: center;
 	width: 85.2%;
 	flex-wrap: wrap;
-	margin-left: 7%;
+	margin: auto;
 	margin-top: 1%;
 	border-radius: 15px;
 	background-color:#dfdfdf ;
@@ -69,6 +69,6 @@ img{
 
 @media screen and (max-width: 1500px){
     .list{
-		margin-left: 7%;
+		margin: auto;
 	}
 }

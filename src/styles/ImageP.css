@@ -1,13 +1,16 @@
-.img{
-    
+.img-banner{
+    background-image: url("../assets/Background.png");
+    background-position: center;
+    background-size: cover;
     width: 85%;
     height: 223px;
-    margin-left: 7%;
+    margin: auto;
     border-radius: 15px;
     margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: brightness(65%);
    
     
 }
@@ -23,7 +26,6 @@
 
 .text{
     position: relative;
-    bottom: 130px;
     text-align: center;
     align-items: center;
     color: white;
