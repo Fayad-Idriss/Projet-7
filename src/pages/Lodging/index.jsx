@@ -21,7 +21,7 @@ export default function PageLogement(){
     
             <div>
              
-               <Banner />
+                <Banner />
                  <div>
                     <div className="corp">
 
@@ -29,18 +29,23 @@ export default function PageLogement(){
                        <h1 className="corp-title"> {logement.title} </h1>
                        <h5 className="corp-ville"> {logement.location} </h5>
                     </div>
-                 <div className="etage-2">
-                 <div className="div-triple">
-                   <div className="corp-div"> <p className="insertion-text">Cozy</p> </div>
-                </div>
-              
-                </div>
-                <div>
-                <Info />
-                </div>
+             
+                    <div className="localisation">
+                       <div className="localisation-1">Cuisine</div>
+                       <div className="localisation-2">Frigo</div>
+                    </div>
 
-        </div>
-               <Footer />
+                    <div>
+                       <Info 
+                
+                       />
+                       <Info 
+                
+                       />
+                    </div>
+
+            </div>
+                <Footer />
             </div>
         )
         

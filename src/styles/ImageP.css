@@ -23,9 +23,11 @@
 
 .text{
     position: relative;
-    bottom: 140px;
+    bottom: 130px;
     text-align: center;
+    align-items: center;
     color: white;
     font-size: 250%;
-    width: 100%;
+    
+    
 }

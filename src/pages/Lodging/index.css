@@ -1,5 +1,46 @@
+
+
+.corp-title{
+    color: #FF6060;
+}
+
+.corp-ville{
+    margin-top: 10px;
+    color: #FF6060;
+}
+
+
+
+
 .logement-img{
     display: flex;
     justify-content: center;
     margin-top: 3%;
+}
+
+.localisation{
+    margin-top: 12px;
+    display: flex;
+}
+
+
+.localisation-1{
+    background-color: #FF6060;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.localisation-2{
+    margin-left: 2%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF6060;
+
+  
 }
