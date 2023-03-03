@@ -1,19 +1,21 @@
 
+
 .nav-image{
-    margin-right: 40%;
-    width: 235px;
-   
+    
+  
+    width: 50%;
 }
 
 header{
     padding: 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
 }
 
 .lmj-logo{
-  margin-left: 3%;
+  margin-left: 0.5%;
+  width: 40px;
 }  
 
 

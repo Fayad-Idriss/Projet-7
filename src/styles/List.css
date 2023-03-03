@@ -7,7 +7,7 @@
 
 	display: flex;
 	justify-content: center;
-	width: 85.2%;
+	width: 78%;
 	flex-wrap: wrap;
 	margin: auto;
 	margin-top: 1%;
@@ -18,13 +18,12 @@
 
 
 .list-hote {
-   margin-left: 3%;
+   margin: auto;
    margin-top: 3%;
 
 }
 
 .list-item {
-	margin-left: -5%;
 	border-radius: 10px;
 	height: 340px;
 	width: 340px;		
@@ -61,7 +60,7 @@ img{
 @media screen and (max-width: 1300px){
     .list{
 		background-color: white;
-		margin-left: 10%;
+		margin-left: auto;
 	}
 }
 

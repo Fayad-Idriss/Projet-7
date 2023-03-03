@@ -35,7 +35,7 @@ export default function PageLogement(){
                        <div className="localisation-2">Frigo</div>
                     </div>
 
-                    <div>
+                    <div className="collaspse-info">
                        <Info 
                 
                        />

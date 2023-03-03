@@ -12,15 +12,16 @@ function Info ({ title, text }){
         isCLose(!isOpen)
     }
     return (
- 
-        <div className='info-bar' onClick={toggle}>
-        <div className='bar'>
-            <p className='bar-fiable'>
-                {title}
-            </p>
-           {isOpen ? <img src={flecheH} alt='fleche' className="bar-fleche"/> : <img src={fleche} alt='fleche' className="bar-fleche"/> } 
-        </div>
-        { isOpen ? <div className='info-text'> {text}  </div> : "" } 
+        <div className='div-bar'>
+            <div className='info-bar' onClick={toggle}>
+            <div className='bar'>
+                <p className='bar-fiable'>
+                   {title}
+                </p>
+               {isOpen ? <img src={flecheH} alt='fleche' className="bar-fleche"/> : <img src={fleche} alt='fleche' className="bar-fleche"/> } 
+            </div>
+            { isOpen ? <div className='info-text'> {text}  </div> : "" } 
+            </div>
         </div>
     )
 }
