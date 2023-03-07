@@ -1,5 +1,5 @@
 import '../styles/ImageP.css'
-import Background from '../assets/Background.png'
+
 
 function ImageP(){
     return(

@@ -13,8 +13,10 @@ function Apropos(){
     return(
         <div>
            <Banner />
-           <div className="kalen">
-              <img src={kalen} alt='kalen' className="kalen-img"/>
+           <div className="kalen-div">
+              <div className="kalen">
+                  <img src={kalen} alt='kalen' className="kalen-img"/>
+              </div>
            </div>
            {allDatas.map(({ title, id, text }) => (
                 <Info 

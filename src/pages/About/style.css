@@ -1,4 +1,14 @@
 .kalen{
+  
+
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+.kalen-img{
+   
     background-position: center;
     background-size: cover;
     width: 85%;
@@ -10,9 +20,4 @@
     align-items: center;
     justify-content: center;
     color: white;
-}
-
-.kalen-img{
-    border-radius: 25px;
-   width: 100%;
 }

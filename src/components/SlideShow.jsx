@@ -37,6 +37,7 @@ export default function Slideshow() {
     // qu'un seule photo, ou un affichage avec ces éléments lorsqu'il y en a plusieurs à faire défiler
     if(picNumber === 1) {
         return (
+           
             <div className='slideshow'>
             {/* On utilise la méthode "map" pour récupérer les photos des logements et leur index
             On utilise ensuite un ternaire rendant actif ou non l'affichage de la photo 
@@ -51,6 +52,7 @@ export default function Slideshow() {
                 )
             })}    
             </div>
+         
         )
     } else {
         return (
