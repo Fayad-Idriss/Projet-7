@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 
 
-function Info ({ title, text }){
+function Info (props){
     
     const [isOpen, isCLose] = useState(false)
     function toggle(){
@@ -16,11 +16,11 @@ function Info ({ title, text }){
             <div className='info-bar' onClick={toggle}>
             <div className='bar'>
                 <p className='bar-fiable'>
-                   {title}
+                   {props.title}
                 </p>
                {isOpen ? <img src={flecheH} alt='fleche' className="bar-fleche"/> : <img src={fleche} alt='fleche' className="bar-fleche"/> } 
             </div>
-            { isOpen ? <div className='info-text'> {text}  </div> : "" } 
+            { isOpen ? <div className='info-text'> {props.description}  </div> : "" } 
             </div>
         </div>
     )

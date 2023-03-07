@@ -75,8 +75,7 @@ export default function PageLogement(){
                     <div className="housing-collapse-description">
                         <Info 
                           title={'Description'}
-                          id={logement?.id}
-                          content={logement?.description}
+                          description={logement.description}
 
                         />
                     </div>
@@ -85,8 +84,7 @@ export default function PageLogement(){
                         <Info
 
                           title={'Équipements'}
-                          id={logement.id}
-                          equipments={logement?.equipments}
+                          description={logement.equipments.map((equipment, index)=>(<div key={index}>{equipment}</div>))}
                         />
                     </div>
                     </div>

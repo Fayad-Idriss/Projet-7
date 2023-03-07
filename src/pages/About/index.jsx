@@ -18,12 +18,11 @@ function Apropos(){
                   <img src={kalen} alt='kalen' className="kalen-img"/>
               </div>
            </div>
-           {allDatas.map(({ title, id, text }) => (
+           {allDatas.map((element) => (
                 <Info 
-                    key={title + id}
-                    title={title}
-                    id={id}
-                    text={text}
+                    key={element.id}
+                    title={element.title}
+                    description={element.description}
                 />          
             ))}  
             <Footer />
