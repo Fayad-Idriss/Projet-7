@@ -8,18 +8,18 @@
 
 }
 
+
 .oups{
     color: #FF6060;
     text-align: center;
     margin-top: 5%;
-    width: 100%;
-  
-    
+    width: 100%;    
 }
 
 .return{
     display: flex;    
 }
+
 
 .b{
     display: flex;
@@ -28,6 +28,7 @@
     position: relative;
     top: 100px;
 }
+
 
 .error404{
     width: 100%;

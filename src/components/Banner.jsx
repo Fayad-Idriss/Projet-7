@@ -11,10 +11,10 @@ function Banner() {
         <header>
            <div className='nav-image'>
                 <p>
-                <img src={vectorK} alt='La maison jungle' className='lmj-logo' />
-                <img src={vectorJ} alt='La maison jungle' className='lmj-logo' />
-                <img src={vectorS} alt='La maison jungle' className='lmj-logo' />
-                <img src={vectorA} alt='La maison jungle' className='lmj-logo' />
+                <img src={vectorK} alt='La maison jungle' className='nav-image-logo' />
+                <img src={vectorJ} alt='La maison jungle' className='nav-image-logo' />
+                <img src={vectorS} alt='La maison jungle' className='nav-image-logo' />
+                <img src={vectorA} alt='La maison jungle' className='nav-image-logo' />
                 </p>
             </div>
             <div className='nav' >

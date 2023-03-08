@@ -1,10 +1,10 @@
-.info-bar{
+.div-bar{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.bar{
+.div-info{
     width: 50%;
     height: 50px;
     background-color: #FF6060;
@@ -17,36 +17,21 @@
 }
 
 
-.bar-fleche{
-    width: 25px;
-    height: 16px;
-    margin-right: 2%;
-}
-
-button{
-    background-color: #FF6060;
-    
-}
-
-
-
-.bar-fiable{
+.div-info-title{
     color: white; 
     font-size: x-large;
     margin-left: 2%;
 }
 
-.bar-text{
-    background-color: violet;
+
+.fleche{
+    width: 25px;
+    height: 16px;
+    margin-right: 2%;
 }
 
-.rose{
-    color: #FF6060 ;
-}
 
-
-
-.info-text{
+.info-description{
     width: 50%;
     font-size: x-large;
     margin-left: 25.7%;

@@ -1,19 +1,18 @@
 
 
-.nav-image{
-    
-  
-    width: 50%;
-}
-
 header{
     padding: 2%;
     display: flex;
-    justify-content: space-evenly;
-   
+    justify-content: space-evenly;   
 }
 
-.lmj-logo{
+
+.nav-image{  
+    width: 50%;
+}
+
+
+.nav-image-logo{
   margin-left: 0.5%;
   width: 40px;
 }  
@@ -21,8 +20,7 @@ header{
 
 .nav{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .accueil{
@@ -41,8 +39,12 @@ a{
     color: #ff6060;
 }
 
+
+
+
+
 @media screen and (max-width: 1300px){
-    .lmj-logo{
+    .nav-image-logo{
         width: 18%;
     }
 

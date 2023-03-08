@@ -1,11 +1,11 @@
 import React from "react"
 import Slideshow from "../../components/SlideShow.jsx"
-import Rating from "../../components/etoile.jsx"
+import Rating from "../../components/stars.jsx"
 import Footer from "../../components/Footer.jsx"
 import { useParams } from "react-router-dom"
 import Error from "../Error/index"
 import Banner from "../../components/Banner"
-import Info from "../../components/InfoBar.jsx"
+import Collapse from "../../components/Collapse.jsx"
 import {dataLodgings}  from "../../datas/data"
 import "./index.css"
 
@@ -73,7 +73,7 @@ export default function PageLogement(){
                    <div className="housing-collapses">
                       
                     <div className="housing-collapse-description">
-                        <Info 
+                        <Collapse 
                           title={'Description'}
                           description={logement.description}
 
@@ -81,7 +81,7 @@ export default function PageLogement(){
                     </div>
                     <div className="housing-collapse-fittings">
                         
-                        <Info
+                        <Collapse
 
                           title={'Équipements'}
                           description={logement.equipments.map((equipment, index)=>(<div key={index}>{equipment}</div>))}

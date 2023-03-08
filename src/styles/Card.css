@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-.list{
+.card{
 
 	display: flex;
 	justify-content: center;
@@ -12,53 +12,50 @@
 	margin: auto;
 	margin-top: 1%;
 	border-radius: 15px;
-	background-color:#dfdfdf ;
-	
+	background-color:#dfdfdf ;	
 }
 
 
-.list-hote {
+.card-hote {
    margin: auto;
    margin-top: 3%;
-
 }
 
-.list-item {
+
+.card-item {
 	border-radius: 10px;
 	height: 340px;
 	width: 340px;		
-   
-
 }
 
-.list-titre{	
-	color: white;
-	font-size: medium;
-	position: relative;
-	bottom: 40px;
-	left: 15px;
-	
-}
 
-.hote-img{
+.card-img{
 	object-fit: cover;
 	width: 100%;
 	height: 340px;
 	border-radius: 10px;
 	filter: brightness(65%);
-	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
-	
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);	
 }
+
+
+.card-title{	
+	color: white;
+	font-size: medium;
+	position: relative;
+	bottom: 40px;
+	left: 15px;	
+}
+
 
 img{
 	object-fit: cover;
-
 }
 
 /*/////////////////////////////////// Partie responsive //////////////////////////////////*/
 
 @media screen and (max-width: 1300px){
-    .list{
+    .card{
 		background-color: white;
 		margin-left: auto;
 	}
@@ -67,7 +64,7 @@ img{
 
 
 @media screen and (max-width: 1500px){
-    .list{
+    .card{
 		margin: auto;
 	}
 }

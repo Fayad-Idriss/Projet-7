@@ -1,6 +1,6 @@
 import Banner from '../../components/Banner'
 import ImageP from '../../components/ImageP'
-import List from '../../components/List'
+import Card from '../../components/Card'
 import Footer from '../../components/Footer'
 import '../Home/index.css'
 
@@ -9,7 +9,7 @@ function Home() {
     <div>
        <Banner />
        <ImageP />
-       <List />
+       <Card />
        <Footer />
 
     </div>

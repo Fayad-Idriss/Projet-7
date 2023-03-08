@@ -181,7 +181,7 @@
 }
 
 .housing-collapse-description{
-    width: 47%;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px){
@@ -197,7 +197,7 @@
 
 
 .housing-collapse-fittings{
-    width: 47%;
+    width: 50%;
     list-style-type: none;
 }
 

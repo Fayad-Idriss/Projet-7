@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 import starG from "../assets/starG.png";
 import starR from "../assets/starR.png";
-import "../styles/etoile.css";
+import "../styles/stars.css";
 
 // On passe les props "ratingArray" et "maxRate" à notre composant
 // puis on récupère l'id du logement dans l'URL

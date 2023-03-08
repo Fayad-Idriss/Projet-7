@@ -10,13 +10,6 @@ footer{
     flex-direction: column;
 }
 
-.text-img{
-    margin-top: 2%;
-}
-
-.lmj-logo-footer{
-    margin-left: 5%;
-}
 
 .kasa-footer{
     display: flex;
@@ -27,12 +20,27 @@ footer{
 }
 
 
+.logo-footer{
+    margin-left: 5%;
+}
+
+
+.text-img{
+    margin-top: 2%;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1300px){
-    .lmj-logo-footer{
+    .logo-footer{
         width: 25px;
     }
 
-    .logo-footer{
-        width: 250px;
-    }
+   .footer-text{
+    width: 100%;
+    margin-top: 2%;
+   }
 }
