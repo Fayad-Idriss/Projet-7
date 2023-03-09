@@ -180,6 +180,7 @@
 @media screen and (max-width: 768px){
     .housing-collapses{
        flex-direction: column;
+       
     }
 }
 
@@ -195,7 +196,7 @@
 
     .housing-infos-rating{
         margin-bottom: 7%;
-        width: 30%;
+        width: 40%;
        }
 }
 
@@ -232,6 +233,9 @@
         width: 85%;
         margin-left: 0;
     }
+
+   
+    
     
 
     
