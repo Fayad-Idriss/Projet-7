@@ -13,7 +13,7 @@ export default function PageLogement(){
     let {id} = useParams()
     const logement = dataLodgings.getOne(id)
     const logementRating = logement.rating
-    console.log(logement)
+    
 
     if (!logement ){
         return <Error />
@@ -25,9 +25,10 @@ export default function PageLogement(){
             <div>
              
                 <Banner />
-                <Slideshow />
+                
+             
                  <div>
-                    
+                    <Slideshow />
                     <div className="page-corp">
                        <div className="corp">
                           <img src={logement.pictures} alt='' />

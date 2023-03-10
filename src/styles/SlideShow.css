@@ -12,8 +12,7 @@
   
  
 .slideshow-pic{
-  background-position: center;
-  background-size: cover;
+  
   width: 85%;
   height: 223px;
   margin: auto;
@@ -28,18 +27,21 @@
   
     
 .rightVector{
-  position: absolute;
+  position: relative;
+  left: 85%;
+  top: 140px;
   cursor: pointer;
-  z-index: 1;
-  right: 20px;
+  color: black;
 }
 
     
 .leftVector{
-  position: absolute;
+  position: relative;
+  left: 10%;
+  top: 140px;
   cursor: pointer;
   z-index: 1;
-  left: 20px;
+  color: black;
 }
   
   

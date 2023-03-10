@@ -5,6 +5,7 @@ import flecheH from '../assets/flecheH.png';
 import fleche from '../assets/fleche.png';
 import '../styles/SlideShow.css';
 
+
 export default function Slideshow() {
     // On récupère l'id du logement dans l'URL
     const params = useParams()
