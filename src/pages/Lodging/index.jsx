@@ -4,7 +4,6 @@ import Rating from "../../components/stars.jsx"
 import Footer from "../../components/Footer.jsx"
 import Error from "../Error/index"
 import { useParams } from "react-router-dom"
-import { useNavigate } from "react-router-dom";
 import Banner from "../../components/Banner"
 import Collapse from "../../components/Collapse.jsx"
 import {dataLodgings}  from "../../datas/data"
@@ -13,14 +12,15 @@ import "./index.css"
 export default function PageLogement(){
     let {id} = useParams()
     const logement = dataLodgings.getOne(id)
-    const logementRating = logement.rating
+   
 
 
-   const Navigate = useNavigate();
+   
     
     if(!logement ){
          return <Error />
     }else{ 
+        const logementRating = logement.rating
 
         return(
     
