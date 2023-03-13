@@ -3,7 +3,7 @@ import Slideshow from "../../components/SlideShow.jsx"
 import Rating from "../../components/stars.jsx"
 import Footer from "../../components/Footer.jsx"
 import { useParams } from "react-router-dom"
-import Error from "../Error/index"
+import { useNavigate } from "react-router-dom";
 import Banner from "../../components/Banner"
 import Collapse from "../../components/Collapse.jsx"
 import {dataLodgings}  from "../../datas/data"
@@ -13,25 +13,22 @@ export default function PageLogement(){
     let {id} = useParams()
     const logement = dataLodgings.getOne(id)
     const logementRating = logement.rating
-    
 
-    if (!logement ){
-        return <Error />
-    }else{   
+
+   const Navigate = useNavigate();
+    
+    if(logement === undefined){
+         Navigate('/') 
+    }else{ 
 
         return(
-
     
-            <div>
-             
-                <Banner />
-                
-             
+            <div>             
+                <Banner />             
                  <div>
                     <Slideshow />
                     <div className="page-corp">
-                       <div className="corp">
-                          <img src={logement.pictures} alt='' />
+                       <div className="corp">                         
                           <h1 className="corp-title"> {logement.title} </h1>
                           <h5 className="corp-ville"> {logement.location} </h5>
 
@@ -69,8 +66,6 @@ export default function PageLogement(){
                     </div>
                     
                  
-            
-                   
                    <div className="housing-collapses">
                       
                     <div className="housing-collapse-description">
@@ -94,9 +89,7 @@ export default function PageLogement(){
                 <Footer />
             </div>
         )
-        
-    } 
-   
- 
+    }    
 }
+
 
