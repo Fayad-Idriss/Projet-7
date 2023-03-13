@@ -2,6 +2,7 @@ import React from "react"
 import Slideshow from "../../components/SlideShow.jsx"
 import Rating from "../../components/stars.jsx"
 import Footer from "../../components/Footer.jsx"
+import Error from "../Error/index"
 import { useParams } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import Banner from "../../components/Banner"
@@ -17,8 +18,8 @@ export default function PageLogement(){
 
    const Navigate = useNavigate();
     
-    if(logement === undefined){
-         Navigate('/') 
+    if(!logement ){
+         return <Error />
     }else{ 
 
         return(
